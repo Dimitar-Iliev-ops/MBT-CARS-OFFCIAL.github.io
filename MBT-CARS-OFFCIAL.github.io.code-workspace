@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "C:/Users/mrdil/OneDrive/Desktop/Project-Js-main/.vscode"
+		},
+		{
+			"path": "C:/Users/mrdil/OneDrive/Desktop/Project-Js-main/css"
+		},
+		{
+			"path": "C:/Users/mrdil/OneDrive/Desktop/Project-Js-main/img"
+		},
+		{
+			"path": "C:/Users/mrdil/OneDrive/Desktop/Project-Js-main/js"
+		},
+		{
+			"path": "C:/Users/mrdil/OneDrive/Desktop/Project-Js-main/lib"
+		},
+		{
+			"path": "C:/Users/mrdil/OneDrive/Desktop/Project-Js-main/node_modules"
+		},
+		{
+			"path": "C:/Users/mrdil/OneDrive/Desktop/Project-Js-main/scss"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MBT-CARS-OFFCIAL.github.io"
+	}
+}
