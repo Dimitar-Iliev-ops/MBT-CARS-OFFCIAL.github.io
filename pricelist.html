@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>MBT CARS - Car Rental HTML Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free HTML Templates" name="keywords">
+        <meta content="Free HTML Templates" name="description">
+    
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+    
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik&display=swap" rel="stylesheet"> 
+    
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-3 px-lg-5 d-none d-lg-block">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body pr-3" href=""><i class="fa fa-phone-alt mr-2"></i>+359 898 788 766</a>
+                        <span class="text-body">|</span>
+                        <a class="text-body px-3" href=""><i class="fa fa-envelope mr-2"></i>mbtrentacar@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-body px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-body px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-body px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-body pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+    
+    
+        <!-- Navbar Start -->
+        <div class="container-fluid position-relative nav-bar p-0">
+            <div class="position-relative px-lg-5" style="z-index: 9;">
+                <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                    <a href="" class="navbar-brand">
+                        <h1 class="text-uppercase text-primary mb-1">MBT Cars</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                        <div class="navbar-nav ml-auto py-0">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link ">About</a>
+                            <a href="service.html" class="nav-item nav-link">Service</a>
+                            <a href="car.html" class="nav-item nav-link">Cars</a>
+                            <a href="pricelist.html" class="nav-item nav-link">Price</a>
+                           
+                           
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+    
+    
+        <!-- Search Start -->
+        <div class="container-fluid bg-white pt-3 px-lg-5">
+            <div class="row mx-n2">
+                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
+                    <select class="custom-select px-4 mb-3" style="height: 50px;">
+                        <option selected>Pickup Location</option>
+                        <option value="1">Paradise Mall</option>
+                        <option value="2">Sofia Ring Mall</option>
+                        <option value="3">Gara Iskar</option>
+                    </select>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
+                    <select class="custom-select px-4 mb-3" style="height: 50px;">
+                        <option selected>Drop Location</option>
+                        <option value="1">Paradise Mall</option>
+                        <option value="2">Sofia Ring Mall</option>
+                        <option value="3">Gara Iskar</option>
+                    </select>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
+                    <div class="date mb-3" id="date" data-target-input="nearest">
+                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Pickup Date"
+                            data-target="#date" data-toggle="datetimepicker" />
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
+                    <div class="time mb-3" id="time" data-target-input="nearest">
+                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Pickup Time"
+                            data-target="#time" data-toggle="datetimepicker" />
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
+                    <select class="custom-select px-4 mb-3" style="height: 50px;">
+                        <option selected>Select A Car</option>
+                        <option selected>Select A Car</option>
+                        <option value="1">Mercedes E63s </option>
+                        <option value="2">Mercedes GTS </option>
+                        <option value="3">Mercedes S500 BRABUS </option>
+                        <option value="3">BMW M5 Competition</option>
+                        <option value="3">Mercedes G63 AMG </option>
+                        <option value="3">BMW X6 </option>
+                        <option value="3">BMW M850i</option>
+                        
+                    </select>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
+                    <button class="btn btn-primary btn-block mb-3" type="submit" style="height: 50px;">Search</button>
+                </div>
+            </div>
+        </div>
+     
+    
+    
+        <div class="container-fluid py-5">
+            <div class="container pt-5 pb-3">
+                <h1 class="display-4 text-uppercase text-center mb-5">Welcome To <span class="text-primary">MBT Cars Pricelist</span></h1>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <img class="w-75 mb-4" src="img/about.png" alt="">
+                    </div>
+                   
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .car {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 5px solid #0077cc;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .car h2 {
+      margin-top: 0;
+      color: #0077cc;
+    }
+    .car ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .car ul li {
+      padding: 5px 0;
+    }
+    .extras {
+      background-color: #e8f0fe;
+      padding: 20px;
+      margin-top: 40px;
+      border-left: 5px solid #0077cc;
+    }
+    .extras h3 {
+      margin-top: 0;
+    }
+    .extras ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .extras ul li {
+      padding: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="car">
+  <h2>BMW X6 2025</h2>
+  <ul>
+    <li><strong>Дневен наем:</strong> 250 лв.</li>
+    <li><strong>Седмичен наем:</strong> 1600 лв.</li>
+    <li><strong>Месечен наем:</strong> 6000 лв.</li>
+  </ul>
+</div>
+
+<div class="car">
+  <h2>BMW 850i 2022</h2>
+  <ul>
+    <li><strong>Дневен наем:</strong> 300 лв.</li>
+    <li><strong>Седмичен наем:</strong> 1900 лв.</li>
+    <li><strong>Месечен наем:</strong> 7200 лв.</li>
+  </ul>
+</div>
+
+<div class="car">
+  <h2>BMW X3M 2023</h2>
+  <ul>
+    <li><strong>Дневен наем:</strong> 220 лв.</li>
+    <li><strong>Седмичен наем:</strong> 1400 лв.</li>
+    <li><strong>Месечен наем:</strong> 5500 лв.</li>
+  </ul>
+</div>
+
+<div class="car">
+  <h2>Mercedes S-Class (Brabus) 2023</h2>
+  <ul>
+    <li><strong>Дневен наем:</strong> 500 лв.</li>
+    <li><strong>Седмичен наем:</strong> 3000 лв.</li>
+    <li><strong>Месечен наем:</strong> 12 000 лв.</li>
+  </ul>
+</div>
+
+<div class="car">
+  <h2>Mercedes E63 AMG</h2>
+  <ul>
+    <li><strong>Дневен наем:</strong> 350 лв.</li>
+    <li><strong>Седмичен наем:</strong> 2200 лв.</li>
+    <li><strong>Месечен наем:</strong> 8500 лв.</li>
+  </ul>
+</div>
+
+<div class="car">
+  <h2>Mercedes AMG GTS</h2>
+  <ul>
+    <li><strong>Дневен наем:</strong> 450 лв.</li>
+    <li><strong>Седмичен наем:</strong> 2800 лв.</li>
+    <li><strong>Месечен наем:</strong> 10 500 лв.</li>
+  </ul>
+</div>
+
+<div class="extras">
+  <h3>Допълнителни услуги:</h3>
+  <ul>
+    <li><strong>Допълнителен шофьор:</strong> 100 лв./ден</li>
+    <li><strong>Застраховка за допълнителни рискове:</strong> 20 лв./ден</li>
+    <li><strong>GPS навигация:</strong> 15 лв./ден</li>
+    <li><strong>Детско седалка:</strong> 10 лв./ден</li>
+  </ul>
+</div>
+                </div>
+               
+            </div>
+        </div>
+</html>
